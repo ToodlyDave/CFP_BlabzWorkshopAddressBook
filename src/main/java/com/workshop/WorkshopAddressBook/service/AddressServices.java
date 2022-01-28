@@ -31,7 +31,7 @@ public class AddressServices implements IAddressServices{
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.OK);
 	}
 	
-	// This method is to return address book records
+	// This method is to return address book records. It will throw a custom exception in case it doesn't find the id passed.
 	@Override
 	public ResponseEntity<ResponseDTO> getAddress(Optional<String> id) throws AddressNotFoundException {
 		// TODO Auto-generated method stub
@@ -58,7 +58,7 @@ public class AddressServices implements IAddressServices{
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.OK);
 	}
 
-	// This method is to update an address record
+	// This method is to update an address record. It will throw a custom exception in case it doesn't find the id passed.
 	@Override
 	public ResponseEntity<ResponseDTO> updateAddress(Optional<String> id, AddressDTO address) throws AddressNotFoundException {
 		// TODO Auto-generated method stub
@@ -72,7 +72,7 @@ public class AddressServices implements IAddressServices{
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.OK);
 	}
 
-	// This method is to delete an address record
+	// This method is to delete an address record. It will throw a custom exception in case it doesn't find the id passed.
 	@Override
 	public ResponseEntity<ResponseDTO> deleteAddress(Optional<String> id) throws AddressNotFoundException {
 		// TODO Auto-generated method stub
