@@ -12,6 +12,7 @@ public class AddressDTO {
 	@Pattern(regexp = "^([A-Z][a-zA-Z]{2,}[ ]?)+$", message = "ERROR: Please enter a valid name!")
 	String name;
 	
+	@Pattern(regexp = "^([A-Z][a-zA-Z]{2,}(, | )?)+$", message = "ERROR: Please enter a valid address!")
 	@NotNull(message = "ERROR: Name cannot be null!")
 	String address;
 
