@@ -12,7 +12,10 @@ import com.workshop.WorkshopAddressBook.dto.ResponseDTO;
 import com.workshop.WorkshopAddressBook.entities.Address;
 import com.workshop.WorkshopAddressBook.repo.AddressRepository;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Service
+@Slf4j
 public class AddressServices implements IAddressServices{
 	
 	@Autowired
@@ -22,6 +25,7 @@ public class AddressServices implements IAddressServices{
 	@Override
 	public ResponseEntity<ResponseDTO> hello() {
 		// TODO Auto-generated method stub
+		log.info(" We are returning the default message");
 		ResponseDTO responseDTO = new ResponseDTO("Welcome to the address book application", null);
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.OK);
 	}
@@ -30,6 +34,7 @@ public class AddressServices implements IAddressServices{
 	@Override
 	public ResponseEntity<ResponseDTO> getAddress(Optional<String> id) {
 		// TODO Auto-generated method stub
+		log.info(" We are returning the address book records ");
 		ResponseDTO responseDTO;
 		if (id.isEmpty())
 			responseDTO = new ResponseDTO("Fetching all address records", addressRepository.findAll());
@@ -43,6 +48,7 @@ public class AddressServices implements IAddressServices{
 	@Override
 	public ResponseEntity<ResponseDTO> createAddress(AddressDTO address) {
 		// TODO Auto-generated method stub
+		log.info(" We are inserting a new address book record ");
 		addressRepository.save(new Address(address));
 		ResponseDTO responseDTO = new ResponseDTO("Creating an address book record ", address);
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.OK);
@@ -52,6 +58,7 @@ public class AddressServices implements IAddressServices{
 	@Override
 	public ResponseEntity<ResponseDTO> updateAddress(Optional<String> id, AddressDTO address) {
 		// TODO Auto-generated method stub
+		log.info(" We are updating an existing address book record");
 		addressRepository.save(new Address(Long.parseLong(id.get()), address));
 		ResponseDTO responseDTO = new ResponseDTO("Updating data", id.get());
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.OK);
@@ -61,6 +68,7 @@ public class AddressServices implements IAddressServices{
 	@Override
 	public ResponseEntity<ResponseDTO> deleteAddress(Optional<String> id) {
 		// TODO Auto-generated method stub
+		log.info(" We are deleting an address book record ");
 		addressRepository.deleteById(Long.parseLong(id.get()));
 		ResponseDTO responseDTO = new ResponseDTO("Deleting data", id.get());
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.OK);
