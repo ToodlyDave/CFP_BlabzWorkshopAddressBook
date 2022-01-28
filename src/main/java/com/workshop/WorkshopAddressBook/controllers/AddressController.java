@@ -2,6 +2,8 @@ package com.workshop.WorkshopAddressBook.controllers;
 
 import java.util.Optional;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -45,14 +47,14 @@ public class AddressController {
 
 	// This method will call the service layer to insert a new record into the db
 	@PostMapping("/create")
-	public ResponseEntity<ResponseDTO> createAddress(@RequestBody AddressDTO address) {
+	public ResponseEntity<ResponseDTO> createAddress(@Valid @RequestBody AddressDTO address) {
 		log.info(" We are calling the service layer to insert a new record ");
 		return addressService.createAddress(address);
 	}
 
 	// This method will call the service layer to update certain records in the db
 	@PutMapping("/update/{id}")
-	public ResponseEntity<ResponseDTO> updateAddress(@PathVariable Optional<String> id, @RequestBody AddressDTO address) {
+	public ResponseEntity<ResponseDTO> updateAddress(@PathVariable Optional<String> id, @Valid @RequestBody AddressDTO address) {
 		log.info(" We are calling the service layer to update the record ");
 		return addressService.updateAddress(id, address);
 	}
