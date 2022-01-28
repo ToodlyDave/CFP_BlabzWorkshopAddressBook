@@ -7,7 +7,14 @@ import javax.persistence.Id;
 
 import com.workshop.WorkshopAddressBook.dto.AddressDTO;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
 @Entity
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Address {
 
 	@Id
@@ -15,28 +22,6 @@ public class Address {
 	long id;
 	String name;
 	String address;
-
-	public Address() {
-	}
-
-	public long getId() {
-		return id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public String getAddress() {
-		return address;
-	}
-
-	public Address(long id, String name, String address) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.address = address;
-	}
 
 	public Address(long id, AddressDTO address) {
 		super();
