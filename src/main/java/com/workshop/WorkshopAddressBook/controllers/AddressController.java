@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.workshop.WorkshopAddressBook.dto.AddressDTO;
 import com.workshop.WorkshopAddressBook.dto.ResponseDTO;
+import com.workshop.WorkshopAddressBook.exceptions.AddressNotFoundException;
 import com.workshop.WorkshopAddressBook.service.IAddressServices;
 
 import lombok.extern.slf4j.Slf4j;
@@ -40,7 +41,7 @@ public class AddressController {
 
 	// This method will call the service layer to return the address records
 	@GetMapping(value = {"/get/{id}", "/get"})
-	public ResponseEntity<ResponseDTO> getAddress(@PathVariable Optional<String> id) {
+	public ResponseEntity<ResponseDTO> getAddress(@PathVariable Optional<String> id) throws AddressNotFoundException {
 		log.info(" We are calling the service layer to return address book records ");
 		return addressService.getAddress(id);
 	}
@@ -54,14 +55,14 @@ public class AddressController {
 
 	// This method will call the service layer to update certain records in the db
 	@PutMapping("/update/{id}")
-	public ResponseEntity<ResponseDTO> updateAddress(@PathVariable Optional<String> id, @Valid @RequestBody AddressDTO address) {
+	public ResponseEntity<ResponseDTO> updateAddress(@PathVariable Optional<String> id, @Valid @RequestBody AddressDTO address) throws AddressNotFoundException {
 		log.info(" We are calling the service layer to update the record ");
 		return addressService.updateAddress(id, address);
 	}
 
 	// This method will call the service layer to delete records 
 	@DeleteMapping("/delete/{id}")
-	public ResponseEntity<ResponseDTO> deleteAddress(@PathVariable Optional<String> id) {
+	public ResponseEntity<ResponseDTO> deleteAddress(@PathVariable Optional<String> id) throws AddressNotFoundException {
 		log.info(" We are calling the service layer to delete an address book record ");
 		return addressService.deleteAddress(id);
 	}
