@@ -1,5 +1,6 @@
 package com.workshop.WorkshopAddressBook.entities;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -25,6 +26,8 @@ public class Address {
 	String city;
 	String state;
 	int zip;
+	
+	@Column(name = "phone_number")
 	long phoneNumber;
 	String email;
 
