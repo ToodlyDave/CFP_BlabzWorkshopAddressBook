@@ -10,6 +10,7 @@ import com.workshop.WorkshopAddressBook.entities.Address;
 
 public interface AddressRepository extends JpaRepository<Address, Long>{
 
+	// This is a custom query to search the table for an address record by city name
 	@Query(value = "SELECT * FROM address WHERE CITY = :cityName", nativeQuery = true)
 	public List<Address> findAddressByCity(@Param(value = "cityName") String cityName);
 }

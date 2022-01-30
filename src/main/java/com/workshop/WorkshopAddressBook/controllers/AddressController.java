@@ -71,6 +71,7 @@ public class AddressController {
 		return addressService.deleteAddress(id);
 	}
 	
+	// This method will call the service layer to find an address record by city 
 	@GetMapping("/city/{city}")
 	public ResponseEntity<ResponseDTO> findAddressByCity(@PathVariable String city) throws AddressNotFoundException {
 		log.info(" We are calling the service layer to find the address by city name");
