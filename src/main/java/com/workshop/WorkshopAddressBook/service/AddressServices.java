@@ -1,5 +1,6 @@
 package com.workshop.WorkshopAddressBook.service;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -83,6 +84,21 @@ public class AddressServices implements IAddressServices{
 		addressRepository.deleteById(Long.parseLong(id.get()));
 		ResponseDTO responseDTO = new ResponseDTO("Deleting data", id.get());
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.OK);
+	}
+
+	// This method calls the custom query we defined in the repo layer. It will return a list of address records that have 
+	// the corresponding city value that is passed to this method.
+	@Override
+	public ResponseEntity<ResponseDTO> findAddressByCity(String city) throws AddressNotFoundException {
+		// TODO Auto-generated method stub
+		log.info(" Searching for the address record by city");
+		List<Address> addressList = addressRepository.findAddressByCity(city);
+		
+		if (addressList.size() == 0)
+			throw new AddressNotFoundException("ERROR: Address record with city " + city + " not found!");
+		ResponseDTO response = new ResponseDTO("Address with city " + city, addressList);
+		
+		return new ResponseEntity<ResponseDTO>(response, HttpStatus.OK);
 	}
 
 	

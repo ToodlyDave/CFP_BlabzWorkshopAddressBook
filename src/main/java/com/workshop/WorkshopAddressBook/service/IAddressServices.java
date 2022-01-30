@@ -18,6 +18,8 @@ public interface IAddressServices {
 
 	public ResponseEntity<ResponseDTO> deleteAddress(Optional<String> id) throws AddressNotFoundException;
 
+	public ResponseEntity<ResponseDTO> findAddressByCity(String city) throws AddressNotFoundException;
+	
 	ResponseEntity<ResponseDTO> hello();
 
 }

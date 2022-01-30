@@ -70,5 +70,11 @@ public class AddressController {
 		log.info(" We are calling the service layer to delete an address book record ");
 		return addressService.deleteAddress(id);
 	}
+	
+	@GetMapping("/city/{city}")
+	public ResponseEntity<ResponseDTO> findAddressByCity(@PathVariable String city) throws AddressNotFoundException {
+		log.info(" We are calling the service layer to find the address by city name");
+		return addressService.findAddressByCity(city);
+	}
 
 }

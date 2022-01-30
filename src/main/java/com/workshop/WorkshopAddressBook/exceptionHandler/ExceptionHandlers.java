@@ -18,7 +18,7 @@ public class ExceptionHandlers{
 	@ExceptionHandler(AddressNotFoundException.class)
 	public ResponseEntity<ResponseDTO> handleAddressNotFound(AddressNotFoundException error) {
 
-		ResponseDTO responseDTO = new ResponseDTO("ERROR: Invalid pattern", error.getMessage());
+		ResponseDTO responseDTO = new ResponseDTO("ERROR: Invalid input", error.getMessage());
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.BAD_REQUEST);
 	}
 
