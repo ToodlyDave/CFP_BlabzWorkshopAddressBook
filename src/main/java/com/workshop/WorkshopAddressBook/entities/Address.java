@@ -35,8 +35,8 @@ public class Address {
 		this.address = address.getAddress();
 		this.city = address.getCity();
 		this.state = address.getState();
-		this.zip = address.getZip();
-		this.phoneNumber = address.getPhoneNumber();
+		this.zip = Integer.parseInt(address.getZip() );
+		this.phoneNumber = Long.parseLong(address.getPhoneNumber() );
 		this.email = address.getEmail();
 	}
 
@@ -46,8 +46,8 @@ public class Address {
 		this.address = address.getAddress();
 		this.city = address.getCity();
 		this.state = address.getState();
-		this.zip = address.getZip();
-		this.phoneNumber = address.getPhoneNumber();
+		this.zip = Integer.parseInt(address.getZip() );
+		this.phoneNumber = Long.parseLong(address.getPhoneNumber() );
 		this.email = address.getEmail();
 	}
 

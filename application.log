@@ -1,340 +1,52 @@
-29-01-2022 00:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 17064 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 00:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:637] No active profile set, falling back to default profiles: default
-29-01-2022 00:36[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 00:36[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
-29-01-2022 00:36[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 00:36[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 00:36[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 00:36[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 00:36[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 202 ms
-29-01-2022 00:36[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 00:36[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-25 - Starting...
-29-01-2022 00:36[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-25 - Start completed.
-29-01-2022 00:36[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 00:36[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 00:36[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 00:36[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 00:36[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 00:36[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 00:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.445 seconds (JVM running for 1697.606)
-29-01-2022 00:36[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 00:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 00:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 11504 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 00:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:637] No active profile set, falling back to default profiles: default
-29-01-2022 00:37[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-29-01-2022 00:37[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-29-01-2022 00:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 00:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
-29-01-2022 00:37[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 00:37[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 00:37[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 00:37[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 00:37[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2339 ms
-29-01-2022 00:37[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 00:37[INFO][restartedMain] [o.h.Version:44] HHH000412: Hibernate ORM core version 5.6.4.Final
-29-01-2022 00:37[INFO][restartedMain] [o.h.a.c.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-29-01-2022 00:37[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
-29-01-2022 00:37[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
-29-01-2022 00:37[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 00:37[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 00:37[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 00:37[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 00:37[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 00:37[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 00:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 6.477 seconds (JVM running for 7.188)
-29-01-2022 00:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 00:43[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 18140 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 00:43[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 00:43[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-29-01-2022 00:43[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-29-01-2022 00:43[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 00:43[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
-29-01-2022 00:43[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 00:43[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 00:43[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 00:43[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 00:43[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 1948 ms
-29-01-2022 00:43[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 00:43[INFO][restartedMain] [o.h.Version:44] HHH000412: Hibernate ORM core version 5.6.4.Final
-29-01-2022 00:43[INFO][restartedMain] [o.h.a.c.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-29-01-2022 00:43[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
-29-01-2022 00:43[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
-29-01-2022 00:43[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 00:43[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 00:43[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 00:43[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 00:43[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 00:43[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 00:43[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 5.544 seconds (JVM running for 6.154)
-29-01-2022 00:43[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 00:47[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 16176 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 00:47[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 00:47[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-29-01-2022 00:47[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-29-01-2022 00:47[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 00:47[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interfaces.
-29-01-2022 00:47[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 00:47[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 00:47[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 00:47[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 00:47[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2282 ms
-29-01-2022 00:47[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 00:47[INFO][restartedMain] [o.h.Version:44] HHH000412: Hibernate ORM core version 5.6.4.Final
-29-01-2022 00:47[INFO][restartedMain] [o.h.a.c.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-29-01-2022 00:47[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
-29-01-2022 00:47[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
-29-01-2022 00:47[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 00:47[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 00:47[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 00:47[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 00:47[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 00:47[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 00:47[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 6.105 seconds (JVM running for 6.781)
-29-01-2022 00:47[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 01:04[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 11232 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 01:04[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 01:04[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-29-01-2022 01:04[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-29-01-2022 01:04[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 01:04[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
-29-01-2022 01:04[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 01:04[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 01:04[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 01:04[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 01:04[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2123 ms
-29-01-2022 01:04[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 01:04[INFO][restartedMain] [o.h.Version:44] HHH000412: Hibernate ORM core version 5.6.4.Final
-29-01-2022 01:04[INFO][restartedMain] [o.h.a.c.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-29-01-2022 01:04[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
-29-01-2022 01:04[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
-29-01-2022 01:04[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 01:04[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 01:04[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 01:04[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 01:04[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 01:04[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 01:04[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 6.045 seconds (JVM running for 6.684)
-29-01-2022 01:04[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 01:04[INFO][http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-29-01-2022 01:04[INFO][http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
-29-01-2022 01:04[INFO][http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet:547] Completed initialization in 1 ms
-29-01-2022 01:04[INFO][http-nio-8080-exec-1] [c.w.W.c.AddressController:44]  We are calling the service layer to return address book records 
-29-01-2022 01:04[INFO][http-nio-8080-exec-1] [c.w.W.s.AddressServices:37]  We are returning the address book records 
-29-01-2022 01:04[WARN][http-nio-8080-exec-3] [o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.createAddress(com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'name': rejected value [david]; codes [Pattern.addressDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@70966520,^([A-Z][a-zA-Z]{2,}[ ]?)+$]; default message [ERROR: Please enter a valid name!]] ]
-29-01-2022 01:04[INFO][http-nio-8080-exec-5] [c.w.W.c.AddressController:51]  We are calling the service layer to insert a new record 
-29-01-2022 01:04[INFO][http-nio-8080-exec-5] [c.w.W.s.AddressServices:51]  We are inserting a new address book record 
-29-01-2022 01:05[INFO][http-nio-8080-exec-6] [c.w.W.c.AddressController:58]  We are calling the service layer to update the record 
-29-01-2022 01:05[INFO][http-nio-8080-exec-6] [c.w.W.s.AddressServices:61]  We are updating an existing address book record
-29-01-2022 01:05[INFO][Thread-5] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 01:05[INFO][Thread-5] [c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
-29-01-2022 01:05[INFO][Thread-5] [c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
-29-01-2022 01:05[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 11232 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 01:05[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 01:05[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 01:05[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
-29-01-2022 01:05[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 01:05[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 01:05[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 01:05[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 01:05[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 395 ms
-29-01-2022 01:05[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 01:05[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-2 - Starting...
-29-01-2022 01:05[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-2 - Start completed.
-29-01-2022 01:05[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 01:05[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 01:05[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 01:05[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 01:05[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 01:05[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 01:05[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.784 seconds (JVM running for 63.603)
-29-01-2022 01:05[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 01:05[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 01:05[INFO][Thread-7] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 01:05[INFO][Thread-7] [c.z.h.HikariDataSource:350] HikariPool-2 - Shutdown initiated...
-29-01-2022 01:05[INFO][Thread-7] [c.z.h.HikariDataSource:352] HikariPool-2 - Shutdown completed.
-29-01-2022 01:05[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 11232 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 01:05[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 01:05[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 01:05[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
-29-01-2022 01:05[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 01:05[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 01:05[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 01:05[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 01:05[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 365 ms
-29-01-2022 01:05[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 01:05[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-3 - Starting...
-29-01-2022 01:05[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-3 - Start completed.
-29-01-2022 01:05[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 01:05[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 01:05[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 01:05[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 01:05[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 01:05[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 01:05[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.719 seconds (JVM running for 68.848)
-29-01-2022 01:05[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 01:05[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 01:05[INFO][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-29-01-2022 01:05[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
-29-01-2022 01:05[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:547] Completed initialization in 1 ms
-29-01-2022 01:05[INFO][http-nio-8080-exec-2] [c.w.W.c.AddressController:44]  We are calling the service layer to return address book records 
-29-01-2022 01:05[INFO][http-nio-8080-exec-2] [c.w.W.s.AddressServices:37]  We are returning the address book records 
-29-01-2022 01:05[WARN][http-nio-8080-exec-3] [o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.updateAddress(java.util.Optional<java.lang.String>,com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'name': rejected value [david]; codes [Pattern.addressDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@70966520,^([A-Z][a-zA-Z]{2,}[ ]?)+$]; default message [ERROR: Please enter a valid name!]] ]
-29-01-2022 01:05[INFO][http-nio-8080-exec-5] [c.w.W.c.AddressController:58]  We are calling the service layer to update the record 
-29-01-2022 01:05[INFO][http-nio-8080-exec-5] [c.w.W.s.AddressServices:61]  We are updating an existing address book record
-29-01-2022 01:53[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13052 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 01:53[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 01:53[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-29-01-2022 01:53[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-29-01-2022 01:53[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 01:53[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
-29-01-2022 01:53[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 01:53[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 01:53[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 01:53[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 01:53[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2313 ms
-29-01-2022 01:53[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 01:53[INFO][restartedMain] [o.h.Version:44] HHH000412: Hibernate ORM core version 5.6.4.Final
-29-01-2022 01:53[INFO][restartedMain] [o.h.a.c.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-29-01-2022 01:53[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
-29-01-2022 01:54[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
-29-01-2022 01:54[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 01:54[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 01:54[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 01:54[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 01:54[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 01:54[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 01:54[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 6.254 seconds (JVM running for 6.922)
-29-01-2022 01:54[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 01:54[INFO][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-29-01-2022 01:54[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
-29-01-2022 01:54[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:547] Completed initialization in 1 ms
-29-01-2022 01:54[WARN][http-nio-8080-exec-2] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.createAddress(com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'name': rejected value [john]; codes [Pattern.addressDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@715629ad,^([A-Z][a-zA-Z]{2,}[ ]?)+$]; default message [ERROR: Please enter a valid name!]] ]
-29-01-2022 01:55[WARN][http-nio-8080-exec-4] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.updateAddress(java.util.Optional<java.lang.String>,com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'name': rejected value [john]; codes [Pattern.addressDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@715629ad,^([A-Z][a-zA-Z]{2,}[ ]?)+$]; default message [ERROR: Please enter a valid name!]] ]
-29-01-2022 02:01[INFO][http-nio-8080-exec-6] [c.w.W.c.AddressController:58]  We are calling the service layer to update the record 
-29-01-2022 02:01[INFO][http-nio-8080-exec-6] [c.w.W.s.AddressServices:61]  We are updating an existing address book record
-29-01-2022 02:03[INFO][Thread-5] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:03[INFO][Thread-5] [c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
-29-01-2022 02:03[INFO][Thread-5] [c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13052 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:03[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:03[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:03[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:03[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:03[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 371 ms
-29-01-2022 02:03[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:03[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-2 - Starting...
-29-01-2022 02:03[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-2 - Start completed.
-29-01-2022 02:03[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:03[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:03[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:03[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.744 seconds (JVM running for 552.82)
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:03[INFO][Thread-7] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:03[INFO][Thread-7] [c.z.h.HikariDataSource:350] HikariPool-2 - Shutdown initiated...
-29-01-2022 02:03[INFO][Thread-7] [c.z.h.HikariDataSource:352] HikariPool-2 - Shutdown completed.
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13052 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:03[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:03[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:03[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:03[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:03[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 313 ms
-29-01-2022 02:03[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:03[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-3 - Starting...
-29-01-2022 02:03[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-3 - Start completed.
-29-01-2022 02:03[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:03[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:03[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:03[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.641 seconds (JVM running for 554.941)
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:03[INFO][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-29-01-2022 02:03[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
-29-01-2022 02:03[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:547] Completed initialization in 1 ms
-29-01-2022 02:03[WARN][http-nio-8080-exec-2] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.updateAddress(java.util.Optional<java.lang.String>,com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'address': rejected value [india, hi]; codes [Pattern.addressDTO.address,Pattern.address,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.address,address]; arguments []; default message [address],[Ljavax.validation.constraints.Pattern$Flag;@715629ad,^([A-Z][a-zA-Z]{2,}(, | )?)+$]; default message [ERROR: Please enter a valid name!]] ]
-29-01-2022 02:03[INFO][Thread-11] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:03[INFO][Thread-11] [c.z.h.HikariDataSource:350] HikariPool-3 - Shutdown initiated...
-29-01-2022 02:03[INFO][Thread-11] [c.z.h.HikariDataSource:352] HikariPool-3 - Shutdown completed.
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13052 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:03[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:03[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:03[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:03[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:03[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 347 ms
-29-01-2022 02:03[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:03[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-4 - Starting...
-29-01-2022 02:03[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-4 - Start completed.
-29-01-2022 02:03[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:03[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:03[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:03[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.767 seconds (JVM running for 566.292)
-29-01-2022 02:03[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:03[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:03[INFO][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-29-01-2022 02:03[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
-29-01-2022 02:03[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:547] Completed initialization in 1 ms
-29-01-2022 02:03[WARN][http-nio-8080-exec-2] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.updateAddress(java.util.Optional<java.lang.String>,com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'address': rejected value [india, hi]; codes [Pattern.addressDTO.address,Pattern.address,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.address,address]; arguments []; default message [address],[Ljavax.validation.constraints.Pattern$Flag;@715629ad,^([A-Z][a-zA-Z]{2,}(, | )?)+$]; default message [ERROR: Please enter a valid address!]] ]
-29-01-2022 02:28[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:28[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:28[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-29-01-2022 02:28[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-29-01-2022 02:28[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:28[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:28[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:28[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:28[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:28[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:28[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2197 ms
-29-01-2022 02:28[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:28[INFO][restartedMain] [o.h.Version:44] HHH000412: Hibernate ORM core version 5.6.4.Final
-29-01-2022 02:28[INFO][restartedMain] [o.h.a.c.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-29-01-2022 02:28[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
-29-01-2022 02:28[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
-29-01-2022 02:28[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:28[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:28[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:28[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:28[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:28[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:28[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 5.901 seconds (JVM running for 6.573)
-29-01-2022 02:28[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:28[INFO][http-nio-8080-exec-1] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-29-01-2022 02:28[INFO][http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
-29-01-2022 02:28[INFO][http-nio-8080-exec-1] [o.s.w.s.DispatcherServlet:547] Completed initialization in 2 ms
-29-01-2022 02:28[INFO][http-nio-8080-exec-1] [c.w.W.c.AddressController:45]  We are calling the service layer to return address book records 
-29-01-2022 02:28[INFO][http-nio-8080-exec-1] [c.w.W.s.AddressServices:38]  We are returning the address book records 
-29-01-2022 02:28[INFO][http-nio-8080-exec-3] [c.w.W.c.AddressController:45]  We are calling the service layer to return address book records 
-29-01-2022 02:28[INFO][http-nio-8080-exec-3] [c.w.W.s.AddressServices:38]  We are returning the address book records 
-29-01-2022 02:28[ERROR][http-nio-8080-exec-3] [o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.workshop.WorkshopAddressBook.exceptions.AddressNotFoundException: ERROR: Invalid Address] with root cause
-com.workshop.WorkshopAddressBook.exceptions.AddressNotFoundException: ERROR: Invalid Address
-	at com.workshop.WorkshopAddressBook.service.AddressServices.lambda$0(AddressServices.java:45)
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-	at com.workshop.WorkshopAddressBook.service.AddressServices.getAddress(AddressServices.java:44)
-	at com.workshop.WorkshopAddressBook.controllers.AddressController.getAddress(AddressController.java:46)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+30-01-2022 08:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 15652 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
+30-01-2022 08:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
+30-01-2022 08:34[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+30-01-2022 08:34[INFO][restartedMain] [o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor:255] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+30-01-2022 08:34[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-01-2022 08:34[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+30-01-2022 08:34[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+30-01-2022 08:34[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+30-01-2022 08:34[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-01-2022 08:34[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+30-01-2022 08:34[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 2077 ms
+30-01-2022 08:34[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+30-01-2022 08:34[INFO][restartedMain] [o.h.Version:44] HHH000412: Hibernate ORM core version 5.6.4.Final
+30-01-2022 08:34[INFO][restartedMain] [o.h.a.c.Version:56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+30-01-2022 08:34[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-1 - Starting...
+30-01-2022 08:34[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-1 - Start completed.
+30-01-2022 08:34[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-01-2022 08:34[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-01-2022 08:34[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:34[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2022 08:34[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+30-01-2022 08:34[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+30-01-2022 08:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 9.185 seconds (JVM running for 9.772)
+30-01-2022 08:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
+30-01-2022 08:34[INFO][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-01-2022 08:34[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+30-01-2022 08:34[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:547] Completed initialization in 1 ms
+30-01-2022 08:34[ERROR][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.Pattern' validating type 'java.lang.Long'. Check configuration for 'phoneNumber'] with root cause
+javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.Pattern' validating type 'java.lang.Long'. Check configuration for 'phoneNumber'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162)
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:54)
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130)
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172)
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:109)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66)
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:900)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:250)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:139)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
 	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
@@ -342,8 +54,8 @@ com.workshop.WorkshopAddressBook.exceptions.AddressNotFoundException: ERROR: Inv
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
@@ -379,415 +91,413 @@ com.workshop.WorkshopAddressBook.exceptions.AddressNotFoundException: ERROR: Inv
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-29-01-2022 02:28[INFO][Thread-5] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:28[INFO][Thread-5] [c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
-29-01-2022 02:28[INFO][Thread-5] [c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
-29-01-2022 02:28[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:28[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:28[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:28[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:28[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:28[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:28[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:28[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:28[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 400 ms
-29-01-2022 02:28[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:28[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-2 - Starting...
-29-01-2022 02:28[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-2 - Start completed.
-29-01-2022 02:28[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:28[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:28[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:28[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:28[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:28[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:28[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.77 seconds (JVM running for 40.184)
-29-01-2022 02:28[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:28[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:30[INFO][Thread-7] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:30[INFO][Thread-7] [c.z.h.HikariDataSource:350] HikariPool-2 - Shutdown initiated...
-29-01-2022 02:30[INFO][Thread-7] [c.z.h.HikariDataSource:352] HikariPool-2 - Shutdown completed.
-29-01-2022 02:30[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:30[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:30[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:30[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:30[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:30[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:30[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:30[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:30[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 346 ms
-29-01-2022 02:30[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:30[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-3 - Starting...
-29-01-2022 02:30[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-3 - Start completed.
-29-01-2022 02:30[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:30[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:30[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:30[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:30[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:30[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:30[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.671 seconds (JVM running for 123.613)
-29-01-2022 02:30[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:30[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:30[INFO][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-29-01-2022 02:30[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
-29-01-2022 02:30[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:547] Completed initialization in 1 ms
-29-01-2022 02:30[INFO][http-nio-8080-exec-2] [c.w.W.c.AddressController:45]  We are calling the service layer to return address book records 
-29-01-2022 02:30[INFO][http-nio-8080-exec-2] [c.w.W.s.AddressServices:38]  We are returning the address book records 
-29-01-2022 02:30[WARN][http-nio-8080-exec-2] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [com.workshop.WorkshopAddressBook.exceptions.AddressNotFoundException: ERROR: Invalid Address]
-29-01-2022 02:34[INFO][Thread-11] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:34[INFO][Thread-11] [c.z.h.HikariDataSource:350] HikariPool-3 - Shutdown initiated...
-29-01-2022 02:34[INFO][Thread-11] [c.z.h.HikariDataSource:352] HikariPool-3 - Shutdown completed.
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:34[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:34[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:34[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:34[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:34[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 332 ms
-29-01-2022 02:34[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:34[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-4 - Starting...
-29-01-2022 02:34[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-4 - Start completed.
-29-01-2022 02:34[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:34[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:34[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:34[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.677 seconds (JVM running for 377.992)
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:34[INFO][Thread-15] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:34[INFO][Thread-15] [c.z.h.HikariDataSource:350] HikariPool-4 - Shutdown initiated...
-29-01-2022 02:34[INFO][Thread-15] [c.z.h.HikariDataSource:352] HikariPool-4 - Shutdown completed.
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:34[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:34[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:34[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:34[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:34[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 335 ms
-29-01-2022 02:34[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:34[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-5 - Starting...
-29-01-2022 02:34[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-5 - Start completed.
-29-01-2022 02:34[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:34[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:34[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:34[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.655 seconds (JVM running for 384.171)
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:34[INFO][Thread-19] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:34[INFO][Thread-19] [c.z.h.HikariDataSource:350] HikariPool-5 - Shutdown initiated...
-29-01-2022 02:34[INFO][Thread-19] [c.z.h.HikariDataSource:352] HikariPool-5 - Shutdown completed.
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:34[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:34[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:34[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:34[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:34[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 322 ms
-29-01-2022 02:34[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:34[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-6 - Starting...
-29-01-2022 02:34[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-6 - Start completed.
-29-01-2022 02:34[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:34[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:34[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:34[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.661 seconds (JVM running for 387.327)
-29-01-2022 02:34[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:34[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:36[INFO][Thread-23] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:36[INFO][Thread-23] [c.z.h.HikariDataSource:350] HikariPool-6 - Shutdown initiated...
-29-01-2022 02:36[INFO][Thread-23] [c.z.h.HikariDataSource:352] HikariPool-6 - Shutdown completed.
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:36[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:36[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:36[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:36[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:36[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 343 ms
-29-01-2022 02:36[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:36[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-7 - Starting...
-29-01-2022 02:36[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-7 - Start completed.
-29-01-2022 02:36[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:36[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:36[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:36[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.713 seconds (JVM running for 483.673)
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:36[INFO][Thread-27] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:36[INFO][Thread-27] [c.z.h.HikariDataSource:350] HikariPool-7 - Shutdown initiated...
-29-01-2022 02:36[INFO][Thread-27] [c.z.h.HikariDataSource:352] HikariPool-7 - Shutdown completed.
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:36[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:36[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:36[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:36[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:36[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 288 ms
-29-01-2022 02:36[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:36[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-8 - Starting...
-29-01-2022 02:36[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-8 - Start completed.
-29-01-2022 02:36[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:36[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:36[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:36[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.68 seconds (JVM running for 504.072)
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:36[INFO][Thread-31] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:36[INFO][Thread-31] [c.z.h.HikariDataSource:350] HikariPool-8 - Shutdown initiated...
-29-01-2022 02:36[INFO][Thread-31] [c.z.h.HikariDataSource:352] HikariPool-8 - Shutdown completed.
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:36[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:36[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:36[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:36[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:36[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 287 ms
-29-01-2022 02:36[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:36[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-9 - Starting...
-29-01-2022 02:36[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-9 - Start completed.
-29-01-2022 02:36[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:36[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:36[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:36[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.551 seconds (JVM running for 511.174)
-29-01-2022 02:36[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:37[INFO][Thread-35] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:37[INFO][Thread-35] [c.z.h.HikariDataSource:350] HikariPool-9 - Shutdown initiated...
-29-01-2022 02:37[INFO][Thread-35] [c.z.h.HikariDataSource:352] HikariPool-9 - Shutdown completed.
-29-01-2022 02:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:37[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:37[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:37[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 249 ms
-29-01-2022 02:37[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:37[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-10 - Starting...
-29-01-2022 02:37[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-10 - Start completed.
-29-01-2022 02:37[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:37[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:37[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:37[WARN][restartedMain] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressController': Unsatisfied dependency expressed through field 'addressService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addressServices' defined in file [D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes\com\workshop\WorkshopAddressBook\service\AddressServices.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.workshop.WorkshopAddressBook.service.AddressServices]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	Syntax error on token "throw", throws expected
-	Syntax error on token "throw", invalid (
-
-29-01-2022 02:37[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:37[INFO][restartedMain] [c.z.h.HikariDataSource:350] HikariPool-10 - Shutdown initiated...
-29-01-2022 02:37[INFO][restartedMain] [c.z.h.HikariDataSource:352] HikariPool-10 - Shutdown completed.
-29-01-2022 02:37[INFO][restartedMain] [o.a.c.c.StandardService:173] Stopping service [Tomcat]
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.a.l.ConditionEvaluationReportLoggingListener:136] 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-29-01-2022 02:37[ERROR][restartedMain] [o.s.b.SpringApplication:821] Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressController': Unsatisfied dependency expressed through field 'addressService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addressServices' defined in file [D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes\com\workshop\WorkshopAddressBook\service\AddressServices.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.workshop.WorkshopAddressBook.service.AddressServices]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	Syntax error on token "throw", throws expected
-	Syntax error on token "throw", invalid (
-
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.15.jar:5.3.15]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.15.jar:5.3.15]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.3.jar:2.6.3]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.6.3.jar:2.6.3]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:414) ~[spring-boot-2.6.3.jar:2.6.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302) ~[spring-boot-2.6.3.jar:2.6.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.6.3.jar:2.6.3]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.6.3.jar:2.6.3]
-	at com.workshop.WorkshopAddressBook.WorkshopAddressBookApplication.main(WorkshopAddressBookApplication.java:13) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.3.jar:2.6.3]
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addressServices' defined in file [D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes\com\workshop\WorkshopAddressBook\service\AddressServices.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.workshop.WorkshopAddressBook.service.AddressServices]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	Syntax error on token "throw", throws expected
-	Syntax error on token "throw", invalid (
-
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656) ~[spring-beans-5.3.15.jar:5.3.15]
-	... 25 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.workshop.WorkshopAddressBook.service.AddressServices]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	Syntax error on token "throw", throws expected
-	Syntax error on token "throw", invalid (
-
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.15.jar:5.3.15]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.15.jar:5.3.15]
-	... 36 common frames omitted
-Caused by: java.lang.Error: Unresolved compilation problems: 
-	Syntax error on token "throw", throws expected
-	Syntax error on token "throw", invalid (
-
-	at com.workshop.WorkshopAddressBook.service.AddressServices.<init>(AddressServices.java:63) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.15.jar:5.3.15]
-	... 38 common frames omitted
-29-01-2022 02:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:37[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:37[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:37[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 261 ms
-29-01-2022 02:37[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:37[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-11 - Starting...
-29-01-2022 02:37[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-11 - Start completed.
-29-01-2022 02:37[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:37[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:37[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:37[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.501 seconds (JVM running for 554.527)
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:37[INFO][Thread-39] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:37[INFO][Thread-39] [c.z.h.HikariDataSource:350] HikariPool-11 - Shutdown initiated...
-29-01-2022 02:37[INFO][Thread-39] [c.z.h.HikariDataSource:352] HikariPool-11 - Shutdown completed.
-29-01-2022 02:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:37[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:37[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:37[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 244 ms
-29-01-2022 02:37[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:37[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-12 - Starting...
-29-01-2022 02:37[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-12 - Start completed.
-29-01-2022 02:37[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:37[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:37[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:37[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.475 seconds (JVM running for 569.704)
-29-01-2022 02:37[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:38[INFO][Thread-46] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:38[INFO][Thread-46] [c.z.h.HikariDataSource:350] HikariPool-12 - Shutdown initiated...
-29-01-2022 02:38[INFO][Thread-46] [c.z.h.HikariDataSource:352] HikariPool-12 - Shutdown completed.
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:38[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:38[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:38[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:38[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:38[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 303 ms
-29-01-2022 02:38[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:38[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-13 - Starting...
-29-01-2022 02:38[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-13 - Start completed.
-29-01-2022 02:38[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:38[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:38[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:38[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.564 seconds (JVM running for 626.467)
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:38[INFO][Thread-50] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:38[INFO][Thread-50] [c.z.h.HikariDataSource:350] HikariPool-13 - Shutdown initiated...
-29-01-2022 02:38[INFO][Thread-50] [c.z.h.HikariDataSource:352] HikariPool-13 - Shutdown completed.
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:38[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:38[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:38[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:38[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:38[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 220 ms
-29-01-2022 02:38[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:38[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-14 - Starting...
-29-01-2022 02:38[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-14 - Start completed.
-29-01-2022 02:38[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:38[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:38[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:38[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.484 seconds (JVM running for 634.509)
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
-29-01-2022 02:38[INFO][Thread-54] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:38[INFO][Thread-54] [c.z.h.HikariDataSource:350] HikariPool-14 - Shutdown initiated...
-29-01-2022 02:38[INFO][Thread-54] [c.z.h.HikariDataSource:352] HikariPool-14 - Shutdown completed.
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 13676 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
-29-01-2022 02:38[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-29-01-2022 02:38[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
-29-01-2022 02:38[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
-29-01-2022 02:38[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
-29-01-2022 02:38[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 273 ms
-29-01-2022 02:38[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
-29-01-2022 02:38[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-15 - Starting...
-29-01-2022 02:38[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-15 - Start completed.
-29-01-2022 02:38[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-29-01-2022 02:38[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-29-01-2022 02:38[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
-29-01-2022 02:38[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.515 seconds (JVM running for 640.553)
-29-01-2022 02:38[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
-29-01-2022 02:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
+30-01-2022 08:36[INFO][Thread-5] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:36[INFO][Thread-5] [c.z.h.HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+30-01-2022 08:36[INFO][Thread-5] [c.z.h.HikariDataSource:352] HikariPool-1 - Shutdown completed.
+30-01-2022 08:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 15652 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
+30-01-2022 08:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
+30-01-2022 08:36[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-01-2022 08:36[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+30-01-2022 08:36[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+30-01-2022 08:36[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+30-01-2022 08:36[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-01-2022 08:36[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+30-01-2022 08:36[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 346 ms
+30-01-2022 08:36[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+30-01-2022 08:36[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-2 - Starting...
+30-01-2022 08:36[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-2 - Start completed.
+30-01-2022 08:36[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-01-2022 08:36[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-01-2022 08:36[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:36[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2022 08:36[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+30-01-2022 08:36[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+30-01-2022 08:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.81 seconds (JVM running for 153.389)
+30-01-2022 08:36[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+30-01-2022 08:36[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
+30-01-2022 08:37[INFO][Thread-7] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:37[INFO][Thread-7] [c.z.h.HikariDataSource:350] HikariPool-2 - Shutdown initiated...
+30-01-2022 08:37[INFO][Thread-7] [c.z.h.HikariDataSource:352] HikariPool-2 - Shutdown completed.
+30-01-2022 08:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 15652 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
+30-01-2022 08:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
+30-01-2022 08:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-01-2022 08:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+30-01-2022 08:37[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+30-01-2022 08:37[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+30-01-2022 08:37[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-01-2022 08:37[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+30-01-2022 08:37[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 337 ms
+30-01-2022 08:37[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+30-01-2022 08:37[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-3 - Starting...
+30-01-2022 08:37[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-3 - Start completed.
+30-01-2022 08:37[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-01-2022 08:37[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-01-2022 08:37[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:37[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2022 08:37[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+30-01-2022 08:37[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+30-01-2022 08:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.85 seconds (JVM running for 200.473)
+30-01-2022 08:37[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+30-01-2022 08:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
+30-01-2022 08:37[INFO][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-01-2022 08:37[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+30-01-2022 08:37[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:547] Completed initialization in 0 ms
+30-01-2022 08:37[ERROR][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.Pattern' validating type 'java.lang.Long'. Check configuration for 'phoneNumber'] with root cause
+javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.Pattern' validating type 'java.lang.Long'. Check configuration for 'phoneNumber'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:54) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:109) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66) ~[spring-boot-autoconfigure-2.6.3.jar:2.6.3]
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:900) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:250) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:139) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+30-01-2022 08:37[INFO][Thread-11] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:37[INFO][Thread-11] [c.z.h.HikariDataSource:350] HikariPool-3 - Shutdown initiated...
+30-01-2022 08:37[INFO][Thread-11] [c.z.h.HikariDataSource:352] HikariPool-3 - Shutdown completed.
+30-01-2022 08:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 15652 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
+30-01-2022 08:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
+30-01-2022 08:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-01-2022 08:37[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+30-01-2022 08:37[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+30-01-2022 08:37[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+30-01-2022 08:37[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-01-2022 08:37[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+30-01-2022 08:37[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 295 ms
+30-01-2022 08:37[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+30-01-2022 08:37[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-4 - Starting...
+30-01-2022 08:37[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-4 - Start completed.
+30-01-2022 08:37[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-01-2022 08:37[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-01-2022 08:37[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:37[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2022 08:37[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+30-01-2022 08:37[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+30-01-2022 08:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.725 seconds (JVM running for 222.012)
+30-01-2022 08:37[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+30-01-2022 08:37[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
+30-01-2022 08:37[INFO][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-01-2022 08:37[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+30-01-2022 08:37[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:547] Completed initialization in 1 ms
+30-01-2022 08:37[ERROR][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[.[dispatcherServlet]:175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.Pattern' validating type 'java.lang.Integer'. Check configuration for 'zip'] with root cause
+javax.validation.UnexpectedTypeException: HV000030: No validator could be found for constraint 'javax.validation.constraints.Pattern' validating type 'java.lang.Integer'. Check configuration for 'zip'
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getExceptionForNullValidator(ConstraintTree.java:116) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.getInitializedConstraintValidator(ConstraintTree.java:162) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.SimpleConstraintTree.validateConstraints(SimpleConstraintTree.java:54) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.constraintvalidation.ConstraintTree.validateConstraints(ConstraintTree.java:75) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.doValidateConstraint(MetaConstraint.java:130) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.metadata.core.MetaConstraint.validateConstraint(MetaConstraint.java:123) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateMetaConstraint(ValidatorImpl.java:555) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForSingleDefaultGroupElement(ValidatorImpl.java:518) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForDefaultGroup(ValidatorImpl.java:488) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateConstraintsForCurrentGroup(ValidatorImpl.java:450) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validateInContext(ValidatorImpl.java:400) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.hibernate.validator.internal.engine.ValidatorImpl.validate(ValidatorImpl.java:172) ~[hibernate-validator-6.2.0.Final.jar:6.2.0.Final]
+	at org.springframework.validation.beanvalidation.SpringValidatorAdapter.validate(SpringValidatorAdapter.java:109) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.validate(ValidatorAdapter.java:66) ~[spring-boot-autoconfigure-2.6.3.jar:2.6.3]
+	at org.springframework.validation.DataBinder.validate(DataBinder.java:900) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.validateIfApplicable(AbstractMessageConverterMethodArgumentResolver.java:250) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:139) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+30-01-2022 08:38[INFO][Thread-15] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:38[INFO][Thread-15] [c.z.h.HikariDataSource:350] HikariPool-4 - Shutdown initiated...
+30-01-2022 08:38[INFO][Thread-15] [c.z.h.HikariDataSource:352] HikariPool-4 - Shutdown completed.
+30-01-2022 08:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 15652 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
+30-01-2022 08:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
+30-01-2022 08:38[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-01-2022 08:38[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+30-01-2022 08:38[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+30-01-2022 08:38[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+30-01-2022 08:38[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-01-2022 08:38[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+30-01-2022 08:38[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 325 ms
+30-01-2022 08:38[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+30-01-2022 08:38[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-5 - Starting...
+30-01-2022 08:38[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-5 - Start completed.
+30-01-2022 08:38[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-01-2022 08:38[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-01-2022 08:38[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:38[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2022 08:38[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+30-01-2022 08:38[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+30-01-2022 08:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.724 seconds (JVM running for 235.415)
+30-01-2022 08:38[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+30-01-2022 08:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
+30-01-2022 08:38[INFO][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-01-2022 08:38[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+30-01-2022 08:38[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:547] Completed initialization in 1 ms
+30-01-2022 08:38[WARN][http-nio-8080-exec-2] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.createAddress(com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'address': rejected value [india]; codes [Pattern.addressDTO.address,Pattern.address,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.address,address]; arguments []; default message [address],[Ljavax.validation.constraints.Pattern$Flag;@4240a8f5,^([A-Z][a-zA-Z]{2,}(, | )?)+$]; default message [ERROR: Please enter a valid address!]] ]
+30-01-2022 08:38[INFO][Thread-19] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:38[INFO][Thread-19] [c.z.h.HikariDataSource:350] HikariPool-5 - Shutdown initiated...
+30-01-2022 08:38[INFO][Thread-19] [c.z.h.HikariDataSource:352] HikariPool-5 - Shutdown completed.
+30-01-2022 08:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 15652 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
+30-01-2022 08:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
+30-01-2022 08:38[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-01-2022 08:38[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+30-01-2022 08:38[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+30-01-2022 08:38[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+30-01-2022 08:38[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-01-2022 08:38[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+30-01-2022 08:38[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 267 ms
+30-01-2022 08:38[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+30-01-2022 08:38[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-6 - Starting...
+30-01-2022 08:38[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-6 - Start completed.
+30-01-2022 08:38[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-01-2022 08:38[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-01-2022 08:38[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:38[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2022 08:38[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+30-01-2022 08:38[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+30-01-2022 08:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.593 seconds (JVM running for 273.058)
+30-01-2022 08:38[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+30-01-2022 08:38[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
+30-01-2022 08:39[INFO][Thread-23] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:39[INFO][Thread-23] [c.z.h.HikariDataSource:350] HikariPool-6 - Shutdown initiated...
+30-01-2022 08:39[INFO][Thread-23] [c.z.h.HikariDataSource:352] HikariPool-6 - Shutdown completed.
+30-01-2022 08:39[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 15652 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
+30-01-2022 08:39[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
+30-01-2022 08:39[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-01-2022 08:39[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+30-01-2022 08:39[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+30-01-2022 08:39[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+30-01-2022 08:39[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-01-2022 08:39[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+30-01-2022 08:39[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 246 ms
+30-01-2022 08:39[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+30-01-2022 08:39[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-7 - Starting...
+30-01-2022 08:39[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-7 - Start completed.
+30-01-2022 08:39[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-01-2022 08:39[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-01-2022 08:39[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:39[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2022 08:39[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+30-01-2022 08:39[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+30-01-2022 08:39[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.529 seconds (JVM running for 328.995)
+30-01-2022 08:39[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+30-01-2022 08:39[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
+30-01-2022 08:40[INFO][Thread-27] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:40[INFO][Thread-27] [c.z.h.HikariDataSource:350] HikariPool-7 - Shutdown initiated...
+30-01-2022 08:40[INFO][Thread-27] [c.z.h.HikariDataSource:352] HikariPool-7 - Shutdown completed.
+30-01-2022 08:40[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 15652 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
+30-01-2022 08:40[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
+30-01-2022 08:40[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-01-2022 08:40[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+30-01-2022 08:40[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+30-01-2022 08:40[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+30-01-2022 08:40[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-01-2022 08:40[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+30-01-2022 08:40[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 267 ms
+30-01-2022 08:40[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+30-01-2022 08:40[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-8 - Starting...
+30-01-2022 08:40[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-8 - Start completed.
+30-01-2022 08:40[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-01-2022 08:40[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-01-2022 08:40[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:40[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2022 08:40[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+30-01-2022 08:40[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+30-01-2022 08:40[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.617 seconds (JVM running for 364.656)
+30-01-2022 08:40[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+30-01-2022 08:40[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
+30-01-2022 08:40[INFO][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-01-2022 08:40[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+30-01-2022 08:40[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:547] Completed initialization in 0 ms
+30-01-2022 08:40[WARN][http-nio-8080-exec-2] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.createAddress(com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'address': rejected value [india]; codes [Pattern.addressDTO.address,Pattern.address,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.address,address]; arguments []; default message [address],[Ljavax.validation.constraints.Pattern$Flag;@4240a8f5,^([A-Z][a-zA-Z]{2,}(, | )?)+$]; default message [ERROR: Please enter a valid address!]] ]
+30-01-2022 08:40[WARN][http-nio-8080-exec-4] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.createAddress(com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'zip': rejected value [12345]; codes [Pattern.addressDTO.zip,Pattern.zip,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.zip,zip]; arguments []; default message [zip],[Ljavax.validation.constraints.Pattern$Flag;@4240a8f5,^[0-9]{6}$]; default message [must match "^[0-9]{6}$"]] ]
+30-01-2022 08:41[INFO][Thread-31] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:41[INFO][Thread-31] [c.z.h.HikariDataSource:350] HikariPool-8 - Shutdown initiated...
+30-01-2022 08:41[INFO][Thread-31] [c.z.h.HikariDataSource:352] HikariPool-8 - Shutdown completed.
+30-01-2022 08:41[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 15652 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
+30-01-2022 08:41[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
+30-01-2022 08:41[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-01-2022 08:41[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+30-01-2022 08:41[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+30-01-2022 08:41[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+30-01-2022 08:41[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-01-2022 08:41[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+30-01-2022 08:41[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 240 ms
+30-01-2022 08:41[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+30-01-2022 08:41[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-9 - Starting...
+30-01-2022 08:41[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-9 - Start completed.
+30-01-2022 08:41[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-01-2022 08:41[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-01-2022 08:41[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:41[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2022 08:41[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+30-01-2022 08:41[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+30-01-2022 08:41[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.499 seconds (JVM running for 418.489)
+30-01-2022 08:41[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+30-01-2022 08:41[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
+30-01-2022 08:41[INFO][http-nio-8080-exec-2] [o.a.c.c.C.[.[.[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-01-2022 08:41[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:525] Initializing Servlet 'dispatcherServlet'
+30-01-2022 08:41[INFO][http-nio-8080-exec-2] [o.s.w.s.DispatcherServlet:547] Completed initialization in 1 ms
+30-01-2022 08:41[WARN][http-nio-8080-exec-2] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.createAddress(com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'zip': rejected value [12345]; codes [Pattern.addressDTO.zip,Pattern.zip,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.zip,zip]; arguments []; default message [zip],[Ljavax.validation.constraints.Pattern$Flag;@4240a8f5,^[0-9]{6}$]; default message [ERROR: Please enter a valid zip code!]] ]
+30-01-2022 08:41[WARN][http-nio-8080-exec-4] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.createAddress(com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'phoneNumber': rejected value [123456789]; codes [Pattern.addressDTO.phoneNumber,Pattern.phoneNumber,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.phoneNumber,phoneNumber]; arguments []; default message [phoneNumber],[Ljavax.validation.constraints.Pattern$Flag;@4240a8f5,^[0-9]{10}$]; default message [ERROR: Please enter a valid phone number!]] ]
+30-01-2022 08:41[WARN][http-nio-8080-exec-6] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.createAddress(com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'email': rejected value [hi@@gmail.com]; codes [Pattern.addressDTO.email,Pattern.email,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@4240a8f5,^[\w+-]+(\.[\w-]+)*@[^_\W]+(\.[^_\W]+)?(?=(\.[^_\W]{3,}$|\.[a-zA-Z]{2}$)).*$]; default message [ERROR: Please enter a valid email id!]] ]
+30-01-2022 08:41[WARN][http-nio-8080-exec-8] [o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver:208] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.workshop.WorkshopAddressBook.dto.ResponseDTO> com.workshop.WorkshopAddressBook.controllers.AddressController.createAddress(com.workshop.WorkshopAddressBook.dto.AddressDTO): [Field error in object 'addressDTO' on field 'email': rejected value [hi@gmail..com]; codes [Pattern.addressDTO.email,Pattern.email,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressDTO.email,email]; arguments []; default message [email],[Ljavax.validation.constraints.Pattern$Flag;@4240a8f5,^[\w+-]+(\.[\w-]+)*@[^_\W]+(\.[^_\W]+)?(?=(\.[^_\W]{3,}$|\.[a-zA-Z]{2}$)).*$]; default message [ERROR: Please enter a valid email id!]] ]
+30-01-2022 08:41[INFO][http-nio-8080-exec-10] [c.w.W.c.AddressController:52]  We are calling the service layer to insert a new record 
+30-01-2022 08:41[INFO][http-nio-8080-exec-10] [c.w.W.s.AddressServices:55]  We are inserting a new address book record 
+30-01-2022 08:42[INFO][http-nio-8080-exec-2] [c.w.W.c.AddressController:45]  We are calling the service layer to return address book records 
+30-01-2022 08:42[INFO][http-nio-8080-exec-2] [c.w.W.s.AddressServices:38]  We are returning the address book records 
+30-01-2022 08:42[WARN][http-nio-8080-exec-3] [o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+30-01-2022 08:42[INFO][http-nio-8080-exec-4] [c.w.W.c.AddressController:59]  We are calling the service layer to update the record 
+30-01-2022 08:42[INFO][http-nio-8080-exec-4] [c.w.W.s.AddressServices:65]  We are updating an existing address book record
+30-01-2022 08:42[WARN][http-nio-8080-exec-5] [o.s.w.s.m.s.DefaultHandlerExceptionResolver:208] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+30-01-2022 08:42[INFO][http-nio-8080-exec-6] [c.w.W.c.AddressController:45]  We are calling the service layer to return address book records 
+30-01-2022 08:42[INFO][http-nio-8080-exec-6] [c.w.W.s.AddressServices:38]  We are returning the address book records 
+30-01-2022 08:42[INFO][http-nio-8080-exec-7] [c.w.W.c.AddressController:45]  We are calling the service layer to return address book records 
+30-01-2022 08:42[INFO][http-nio-8080-exec-7] [c.w.W.s.AddressServices:38]  We are returning the address book records 
+30-01-2022 08:43[INFO][http-nio-8080-exec-8] [c.w.W.c.AddressController:66]  We are calling the service layer to delete an address book record 
+30-01-2022 08:43[INFO][http-nio-8080-exec-8] [c.w.W.s.AddressServices:79]  We are deleting an address book record 
+30-01-2022 08:43[INFO][http-nio-8080-exec-9] [c.w.W.c.AddressController:45]  We are calling the service layer to return address book records 
+30-01-2022 08:43[INFO][http-nio-8080-exec-9] [c.w.W.s.AddressServices:38]  We are returning the address book records 
+30-01-2022 08:45[INFO][Thread-35] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:45[INFO][Thread-35] [c.z.h.HikariDataSource:350] HikariPool-9 - Shutdown initiated...
+30-01-2022 08:45[INFO][Thread-35] [c.z.h.HikariDataSource:352] HikariPool-9 - Shutdown completed.
+30-01-2022 08:45[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 15652 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
+30-01-2022 08:45[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
+30-01-2022 08:45[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-01-2022 08:45[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+30-01-2022 08:45[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+30-01-2022 08:45[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+30-01-2022 08:45[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-01-2022 08:45[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+30-01-2022 08:45[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 261 ms
+30-01-2022 08:45[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+30-01-2022 08:45[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-10 - Starting...
+30-01-2022 08:45[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-10 - Start completed.
+30-01-2022 08:45[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-01-2022 08:45[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-01-2022 08:45[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:45[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2022 08:45[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+30-01-2022 08:45[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+30-01-2022 08:45[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.519 seconds (JVM running for 693.952)
+30-01-2022 08:45[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+30-01-2022 08:45[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 
+30-01-2022 08:48[INFO][Thread-39] [o.s.o.j.LocalContainerEntityManagerFactoryBean:651] Closing JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:48[INFO][Thread-39] [c.z.h.HikariDataSource:350] HikariPool-10 - Shutdown initiated...
+30-01-2022 08:48[INFO][Thread-39] [c.z.h.HikariDataSource:352] HikariPool-10 - Shutdown completed.
+30-01-2022 08:48[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:55] Starting WorkshopAddressBookApplication using Java 17.0.1 on DESKTOP-FLFPA9L with PID 15652 (D:\Bridgelabz\CFP\WorkshopAddressBook\target\classes started by User in D:\Bridgelabz\CFP\WorkshopAddressBook)
+30-01-2022 08:48[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:641] The following profiles are active: dev
+30-01-2022 08:48[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:132] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+30-01-2022 08:48[INFO][restartedMain] [o.s.d.r.c.RepositoryConfigurationDelegate:201] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+30-01-2022 08:48[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:108] Tomcat initialized with port(s): 8080 (http)
+30-01-2022 08:48[INFO][restartedMain] [o.a.c.c.StandardService:173] Starting service [Tomcat]
+30-01-2022 08:48[INFO][restartedMain] [o.a.c.c.StandardEngine:173] Starting Servlet engine: [Apache Tomcat/9.0.56]
+30-01-2022 08:48[INFO][restartedMain] [o.a.c.c.C.[.[.[/]:173] Initializing Spring embedded WebApplicationContext
+30-01-2022 08:48[INFO][restartedMain] [o.s.b.w.s.c.ServletWebServerApplicationContext:290] Root WebApplicationContext: initialization completed in 229 ms
+30-01-2022 08:48[INFO][restartedMain] [o.h.j.i.u.LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+30-01-2022 08:48[INFO][restartedMain] [c.z.h.HikariDataSource:110] HikariPool-11 - Starting...
+30-01-2022 08:48[INFO][restartedMain] [c.z.h.HikariDataSource:123] HikariPool-11 - Start completed.
+30-01-2022 08:48[INFO][restartedMain] [o.h.d.Dialect:175] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+30-01-2022 08:48[INFO][restartedMain] [o.h.e.t.j.p.i.JtaPlatformInitiator:52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+30-01-2022 08:48[INFO][restartedMain] [o.s.o.j.LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+30-01-2022 08:48[WARN][restartedMain] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:219] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+30-01-2022 08:48[INFO][restartedMain] [o.s.b.d.a.OptionalLiveReloadServer:58] LiveReload server is running on port 35729
+30-01-2022 08:48[INFO][restartedMain] [o.s.b.w.e.t.TomcatWebServer:220] Tomcat started on port(s): 8080 (http) with context path ''
+30-01-2022 08:48[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:61] Started WorkshopAddressBookApplication in 0.466 seconds (JVM running for 845.379)
+30-01-2022 08:48[INFO][restartedMain] [o.s.b.d.a.ConditionEvaluationDeltaLoggingListener:63] Condition evaluation unchanged
+30-01-2022 08:48[INFO][restartedMain] [c.w.W.WorkshopAddressBookApplication:14]  The application has started 

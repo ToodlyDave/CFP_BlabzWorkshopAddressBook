@@ -39,28 +39,32 @@ public class AddressController {
 		return addressService.hello();
 	}
 
-	// This method will call the service layer to return the address records
+	// This method will call the service layer to return the address records. It will throw a custom exception in case the 
+	// the address record with the given id is not found.
 	@GetMapping(value = {"/get/{id}", "/get"})
 	public ResponseEntity<ResponseDTO> getAddress(@PathVariable Optional<String> id) throws AddressNotFoundException {
 		log.info(" We are calling the service layer to return address book records ");
 		return addressService.getAddress(id);
 	}
 
-	// This method will call the service layer to insert a new record into the db
+	// This method will call the service layer to insert a new record into the db. It will return an error message if the 
+	// address record to be inserted has any invalid fields.
 	@PostMapping("/create")
 	public ResponseEntity<ResponseDTO> createAddress(@Valid @RequestBody AddressDTO address) {
 		log.info(" We are calling the service layer to insert a new record ");
 		return addressService.createAddress(address);
 	}
 
-	// This method will call the service layer to update certain records in the db
+	// This method will call the service layer to update certain records in the db. It will return an error message if the 
+	// address record to be updated has any invalid fields.
 	@PutMapping("/update/{id}")
 	public ResponseEntity<ResponseDTO> updateAddress(@PathVariable Optional<String> id, @Valid @RequestBody AddressDTO address) throws AddressNotFoundException {
 		log.info(" We are calling the service layer to update the record ");
 		return addressService.updateAddress(id, address);
 	}
 
-	// This method will call the service layer to delete records 
+	// This method will call the service layer to delete records. It will throw a custom exception in case the 
+	// the address record with the given id is not found.
 	@DeleteMapping("/delete/{id}")
 	public ResponseEntity<ResponseDTO> deleteAddress(@PathVariable Optional<String> id) throws AddressNotFoundException {
 		log.info(" We are calling the service layer to delete an address book record ");
