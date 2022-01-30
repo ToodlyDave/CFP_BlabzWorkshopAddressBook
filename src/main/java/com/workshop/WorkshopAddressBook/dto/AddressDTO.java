@@ -16,4 +16,9 @@ public class AddressDTO {
 	@NotNull(message = "ERROR: Name cannot be null!")
 	String address;
 
+	String city;
+	String state;
+	int zip;
+	long phoneNumber;
+	String email;
 }
