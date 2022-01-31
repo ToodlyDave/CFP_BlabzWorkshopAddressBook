@@ -12,9 +12,11 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import com.workshop.WorkshopAddressBook.dto.ResponseDTO;
 import com.workshop.WorkshopAddressBook.exceptions.AddressNotFoundException;
 
+// This is to handle the exceptions of the entire project. This is done by using the @ControllerAdvice annotation.
 @ControllerAdvice
 public class ExceptionHandlers{
 	
+	// This method is to handle the custom exception we have defined.
 	@ExceptionHandler(AddressNotFoundException.class)
 	public ResponseEntity<ResponseDTO> handleAddressNotFound(AddressNotFoundException error) {
 
@@ -22,6 +24,7 @@ public class ExceptionHandlers{
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.BAD_REQUEST);
 	}
 
+	// This method is to handle the invalid patterns
 	@ExceptionHandler(MethodArgumentNotValidException.class)
 	public ResponseEntity<ResponseDTO> handleInvalidPattern(MethodArgumentNotValidException error) {
 		

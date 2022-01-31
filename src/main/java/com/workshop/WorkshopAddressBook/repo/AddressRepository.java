@@ -8,6 +8,7 @@ import org.springframework.data.repository.query.Param;
 
 import com.workshop.WorkshopAddressBook.entities.Address;
 
+// This is the repository to handle actions with the database.
 public interface AddressRepository extends JpaRepository<Address, Long>{
 
 	// This is a custom query to search the table for an address record by city name

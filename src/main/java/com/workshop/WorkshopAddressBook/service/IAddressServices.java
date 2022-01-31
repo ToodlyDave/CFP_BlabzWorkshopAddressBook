@@ -8,6 +8,7 @@ import com.workshop.WorkshopAddressBook.dto.AddressDTO;
 import com.workshop.WorkshopAddressBook.dto.ResponseDTO;
 import com.workshop.WorkshopAddressBook.exceptions.AddressNotFoundException;
 
+// This is the interface for the service class.
 public interface IAddressServices {
 
 	public ResponseEntity<ResponseDTO> getAddress(Optional<String> id) throws AddressNotFoundException;

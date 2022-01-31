@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import lombok.extern.slf4j.Slf4j;
 
+// This is the class with the main method. The application starts from here.
 @SpringBootApplication
 @Slf4j
 public class WorkshopAddressBookApplication {
